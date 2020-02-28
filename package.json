@@ -1,0 +1,21 @@
+{
+  "name": "travis-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "lint": "eslint --quiet .",
+    "test": "npm run lint",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyle074613/travis-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyle074613/travis-testing/issues"
+  },
+  "homepage": "https://github.com/kyle074613/travis-testing#readme"
+}
